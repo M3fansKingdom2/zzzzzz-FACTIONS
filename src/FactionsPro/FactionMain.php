@@ -68,7 +68,7 @@ class FactionMain extends PluginBase implements Listener
 				"/f info" => true,
 				"/f invite" => true,
 				"/f kick" => true,
-				"/f leader" => true,
+				"/f leader" => false,
 				"/f leave" => true,
 				"/f promote" => true,	
 		));
