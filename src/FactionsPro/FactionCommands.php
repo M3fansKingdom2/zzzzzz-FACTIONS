@@ -38,7 +38,7 @@ class FactionCommands {
 			$player = $sender->getPlayer()->getName();
 			if(strtolower($command->getName('f'))) {
 				if(empty($args)) {
-					$sender->sendMessage($this->plugin->formatMessage("Please use /f help for a list of commands"));
+					$sender->sendMessage($this->plugin->formatMessage("Tolong Pakai /f help untuk lebih detail"));
 					return true;
 				}
 				if(count($args == 2)) {
@@ -471,11 +471,11 @@ class FactionCommands {
 					/////////////////////////////// ABOUT ///////////////////////////////
 					
 					if(strtolower($args[0] == 'about')) {
-						$sender->sendMessage(TextFormat::BLUE . "FactionsPro v1.5b3 by " . TextFormat::BOLD . "Tethered_\n" . TextFormat::RESET . TextFormat::BLUE . "Twitter: " . TextFormat::ITALIC . "@Tethered_");
+						$sender->sendMessage(TextFormat::BLUE . "FactionsPro v1.5b3 by " . TextFormat::BOLD . "M3fansKingdom2\n" . TextFormat::RESET . TextFormat::BLUE . "Facebook: " . TextFormat::ITALIC . "Steve Kurniawan");
 					}
 				}
 		} else {
-			$this->plugin->getServer()->getLogger()->info($this->plugin->formatMessage("Please run command in game"));
+			$this->plugin->getServer()->getLogger()->info($this->plugin->formatMessage("Tolong Jalankan Command Di in-game"));
 		}
 	}
 }
