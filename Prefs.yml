@@ -1,9 +1,9 @@
 MaxFactionNameLength: 20
 MaxPlayersPerFaction: 10
-ClaimingEnabled: true
+ClaimingEnabled: false
 FactionNametags: true
-PlotSize: 25
-PlaceSnowBlocksOnClaim: true
+PlotSize: 0
+PlaceSnowBlocksOnClaim: false
 Member:
   claim: false
   demote: false
@@ -16,7 +16,7 @@ Member:
   unclaim: false
   unsethome: false
 Officer:
-  claim: true
+  claim: false
   demote: false
   home: true
   invite: true
